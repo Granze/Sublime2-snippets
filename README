@@ -1,0 +1,7 @@
+Useful snippets for fast prototyping in Sublime text editor 2
+
+- Image placeholder HTML (imgplaceholder.sublime-snippet)
+    description:    put an image placeholder using the placehold.it service.
+    trigger:        "place"[tab]
+    output:         <img src="http://placehold.it/580x350" alt="" />
+    tab steps:      width|height|alt
