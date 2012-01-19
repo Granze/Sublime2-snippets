@@ -1,0 +1,28 @@
+<snippet>
+	<content><![CDATA[
+<!DOCTYPE html>
+<html lang="${1:en}">
+<head>
+	<title>$2</title>
+	<meta charset="utf-8" />
+	<meta name="description" content="$3" />
+	<meta name="keywords" content="$4" />
+	<meta name="author" content="$5" />
+	<meta name="viewport" content="width=device-width" />
+	<link rel="stylesheet" href="${6:libs/css/bootstrap.min.css}" />
+	<link rel="stylesheet" href="${7:libs/css/common.css}" />
+	<!--[if lt IE 9]>
+	  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body class="container">
+	$10
+	<footer>&copy; 2012</footer>
+	<!-- Load jQuery from Google's CDN + local fallback-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/${8:1.7.1}/jquery.min.js"></script>
+	<script>!window.jQuery && document.write(unescape('%3Cscript src="libs/js/jquery-${9:1.7.1}.min.js"%3E%3C/script%3E'))</script>
+</body>
+</html>
+]]></content>
+	<tabTrigger>skeleton</tabTrigger>
+</snippet>
