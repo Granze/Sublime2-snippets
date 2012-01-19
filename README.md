@@ -2,9 +2,13 @@ Useful snippets for fast prototyping in Sublime text editor
 -----------------------------------------------------------
 
 * __Image placeholder__ HTML (imgplaceholder.sublime-snippet)
+
     description:    put an image placeholder using the placehold.it service.
+
     trigger:        "place"[tab]
 
 * __HTML5 skeleton__ (html5-skeleton.sublime-snippet)
+
     description:    create a basic HTML5 skeleton with Twitter bootstrap (local), html5shim (CDN) and jQuery (CDN + local fallback) links.
+
     trigger:        "skeleton"[tab]
