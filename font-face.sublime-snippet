@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+@font-face {
+  font-family: '${1:MyFontFamily}';
+  src: url('${2:myfont-webfont}.eot?#iefix') format('embedded-opentype'), url('${2:myfont-webfont}.woff') format('woff'), url('${2:myfont-webfont}.ttf')  format('truetype'), url('${2:myfont-webfont}.svg#${3:svgFontName}') format('svg');
+}
+]]></content>
+  <tabTrigger>ff</tabTrigger>
+</snippet>
